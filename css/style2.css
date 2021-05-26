@@ -1,0 +1,26 @@
+body{
+    --color-primary:#fe7748;
+    --color-primary-dark:#ba4747;
+    --color-secondary:#161928;
+    --color-text:white;
+    --color-error:#cc3333;
+    --color-success:#fee6e2;
+    --border-radius:5px;
+    background: #fd746c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff9068, #fd746c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff9068, #fd746c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.navbar{
+    background-color: rgba(0,0,0,0.3) !important;padding: 0 125px ;
+}
+
+.navbar .navbar-brand {font-size: 1.65rem;}
+
+.box{
+    height: 70vh;margin-top: 50px;background-image: url(../img/wallhaven-xl5ld.png);background-position: center center;background-size: cover;color: white;border-radius: var(--border-radius);
+     -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+}
