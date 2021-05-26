@@ -4,3 +4,4 @@
 - using vanilla javascript for the validation and the registration
 - data is stored on the local storage .
 - Design is inspired from the firefox logo.
+- css color variables were tested during the project.
